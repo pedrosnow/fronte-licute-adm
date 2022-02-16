@@ -14,4 +14,17 @@ header{
     #img{
         width: 70px;
     }
+    .body-icon-sing-out{
+        margin-right: 40px;
+
+        @include d-flex;
+        flex-direction: column;
+
+        #incone{
+            font-size: 20px;
+        }
+        .legenda{
+            font-size: 13px;
+        }
+    }
 }
