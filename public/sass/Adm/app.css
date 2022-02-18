@@ -16,7 +16,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  padding-top: 150px;
+  padding-top: 120px;
 }
 
 #menu-laral nav a {
@@ -67,7 +67,7 @@ main .container-main {
 }
 
 main .body-container-main {
-  background: #52116910;
+  background: #dadada83;
   padding: 30px;
   border-radius: 10px;
   height: 85%;
@@ -192,6 +192,103 @@ header .container-perfil-singout .sing-out {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+#main-login {
+  width: 100%;
+  height: 100%;
+  background: #6c09b5;
+  background: -webkit-gradient(linear, left top, right top, from(#6c09b5), to(#a8518a));
+  background: linear-gradient(90deg, #6c09b5 0%, #a8518a 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-login .container-login {
+  width: 450px;
+  height: 600px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.25);
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 80px 80px 0 80px;
+}
+
+#main-login .container-login h6 {
+  margin-top: 30px;
+}
+
+#main-login .container-login #logo {
+  width: 150px;
+}
+
+#main-login .container-login form {
+  margin-top: 40px;
+  width: 100%;
+}
+
+#main-login .container-login form .input {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+#main-login .container-login form .input li {
+  left: 0;
+  bottom: 10px;
+  font-size: 20px;
+  position: absolute;
+  color: #acacac;
+}
+
+#main-login .container-login form .input input {
+  width: 100%;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  border-bottom: 2px solid #acacac;
+  padding-left: 27px;
+  height: 40px;
+  color: gray;
+  background: none;
+}
+
+#main-login .container-login form button {
+  width: 100%;
+  border: none;
+  padding: 8px 20px;
+  background: purple;
+  color: #fff;
+  border-radius: 5px;
 }
 
 * {
