@@ -1,5 +1,5 @@
-class AdmController{
-    constructor(){
-        
+class AdmController {
+    constructor() {
+
     }
 }

@@ -1,0 +1,32 @@
+#menu-laral{
+    width: 140px;
+    height: 100%;
+    background: #6B1689;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 150px;
+
+    nav{
+
+        a{
+            background: #521169;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+
+            span{
+                margin-left: 15px;
+                color: #fff;
+            }
+            li{
+                color: #fff;
+                margin-right: 20px;
+            }
+        }
+    }
+}
